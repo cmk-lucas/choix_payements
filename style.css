@@ -41,6 +41,7 @@ body {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 45px rgba(124, 58, 237, 0.5);
+    background: rgba(124, 58, 237, 0);
 }
 
 .card h3 {
@@ -85,7 +86,3 @@ button:hover {
     transform: scale(1.05);
 }
 
-.featured {
-    background: rgba(124, 58, 237, 0);
-    border: 1px solid #7c3aed;
-}
